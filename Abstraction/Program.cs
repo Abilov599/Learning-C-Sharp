@@ -1,4 +1,4 @@
-﻿using Abstraction_Interface_Polymorphism.Models;
+﻿using Abstraction.Models;
 
 var cat = new Cat();
 var dog = new Dog();

@@ -1,4 +1,4 @@
-namespace Abstraction_Interface_Polymorphism.Models;
+namespace Abstraction.Models;
 
 internal class Dog : AnimalBase
 {
