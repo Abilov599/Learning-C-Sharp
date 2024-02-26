@@ -2,7 +2,7 @@ namespace Abstraction_Interface_Polymorphism.Models;
 
 internal class Dog : AnimalBase
 {
-    public bool HasCollar;
+    public bool HasCollar { get; set; }
     
     public override void MakeSound()
     {
