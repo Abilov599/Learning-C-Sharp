@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Polymorphism.Models.Animals;
+using Polymorphism.Models.Animals.Abstracts;
+
+var animals = new Animal[] { new Dog(), new Cat() };
+
+foreach (var animal in animals)
+{
+    animal.MakeSound();
+}
