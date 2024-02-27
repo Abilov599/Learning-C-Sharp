@@ -7,3 +7,7 @@ foreach (var animal in animals)
 {
     animal.MakeSound();
 }
+
+Tiger tiger = new Tiger();
+Cat tigerCat = new Tiger();
+IWildAnimal tigerWithInterface = new Tiger();
