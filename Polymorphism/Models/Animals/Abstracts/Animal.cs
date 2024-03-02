@@ -1,9 +1,6 @@
 namespace Polymorphism.Models.Animals.Abstracts;
 
-public class Animal
+public abstract class Animal
 {
-    public virtual void MakeSound()
-    {
-        Console.WriteLine("Animal makes a sound.");
-    }
+    public abstract void MakeSound();
 }
